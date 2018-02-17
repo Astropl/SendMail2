@@ -10,6 +10,9 @@ import java.util.Scanner;
 
 public class EmailSender extends EmailConfiguration {
 
+    public EmailSender () {
+    }
+
     public void sendEmail () throws FileNotFoundException {
         Scanner sc = new Scanner ( System.in );
         ServerStatus serverStatus = new ServerStatus ();
@@ -26,6 +29,7 @@ public class EmailSender extends EmailConfiguration {
         File file = new File ( "pass.txt" );
         Scanner in = new Scanner(file);
         password = in.nextLine ();
+
         //System.out.println ( password );
         //System.out.println(zdanie);
 
