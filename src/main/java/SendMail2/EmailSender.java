@@ -19,7 +19,7 @@ public class EmailSender extends EmailConfiguration {
         String message = "Hello from Apache Mail";
 
         try {
-            System.out.println ("Podaj Haslo");
+            System.out.println ("Podaj Haslo :");
             password=sc.next (  );
             Email email = new SimpleEmail();
             email.setHostName(HOST);
