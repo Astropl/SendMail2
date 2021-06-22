@@ -10,11 +10,11 @@ public class EmailSender extends EmailConfiguration {
 
     public void sendEmail() {
         Scanner sc = new Scanner ( System.in );
-        String userName = "martys.pawel2@gmail.com";
+        String userName = "";
         String password = "";
 
-        String fromAdress = "martys.pawel2@gmail.com";
-        String toAdress = "martys.pawel2@gmail.com";
+        String fromAdress = "";
+        String toAdress = "";
         String subject = "Test email";
         String message = "Hello from Apache Mail";
 
